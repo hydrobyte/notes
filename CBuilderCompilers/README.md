@@ -7,10 +7,9 @@ Tests were ran with an C++ console application called `HydroChannel`.
 `HydroChannel` is an application that solves typical open channel design problems. One of the most intensive calculation modules solves the problem of a channel connecting two reservoirs. It produces a table called `Delivery Curve`. For each cell from this table, the computational solution involves a non deterministic and iterative solution of a differential equation guided by an optimization root-find model based on Newton's method.
 
 ## Code
-- 14 units
-- 5822 lines
-- 4902 LOC
-- 1 Object Pascal unit with 1862 LOC
+- 13 CPP units with 4902 LOC.
+- 1 Object Pascal unit with 1862 LOC.
+- Total of 6764 LOC.
 
 ## Compilers
 - bcc32: Windows 32-bits Classic (Borland) Compiler.
@@ -19,12 +18,12 @@ Tests were ran with an C++ console application called `HydroChannel`.
 - bcc64x: Windows 64-bits New Clang Toolchain (C++Builder 12.2).
 
 ## IDE
-- C++Builder 12.2.2 (+Patch)
+- C++Builder 12.2.2 (+Patch).
 
 ## Machine
-- Intel i5-8250U 1.66 GHz Base, 3.40 GHz TurboBoost (4 cores, 8 threads)
-- 8 Gb RAM
-- Windows 11 23H2 (22631.4460)
+- Intel i5-8250U 1.66 GHz Base, 3.40 GHz TurboBoost (4 cores, 8 threads).
+- 8 Gb RAM.
+- Windows 11 23H2 (22631.4460).
 
 ## Compilation tests
 
